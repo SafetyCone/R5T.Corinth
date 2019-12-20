@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Corinth.Construction", "R5T.Corinth.Construction\R5T.Corinth.Construction.csproj", "{30D6EA39-2E6A-4551-9DA5-D30A5796E649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Corinth.Construction", "R5T.Corinth.Construction\R5T.Corinth.Construction.csproj", "{30D6EA39-2E6A-4551-9DA5-D30A5796E649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Corinth", "R5T.Corinth\R5T.Corinth.csproj", "{17FC5864-8A89-4CB5-A8A6-D97CEC2E9E1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Corinth", "R5T.Corinth\R5T.Corinth.csproj", "{17FC5864-8A89-4CB5-A8A6-D97CEC2E9E1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Corinth.Testing", "R5T.Corinth.Testing\R5T.Corinth.Testing.csproj", "{0A449BAC-8F15-4F7A-83F8-39D3063DADAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Corinth.Testing", "R5T.Corinth.Testing\R5T.Corinth.Testing.csproj", "{0A449BAC-8F15-4F7A-83F8-39D3063DADAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{DD3EEE6D-5007-4CEB-97BF-1E9B97AD5CAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stagira", "..\..\R5T.Stagira\source\R5T.Stagira\R5T.Stagira.csproj", "{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{30D6EA39-2E6A-4551-9DA5-D30A5796E649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{0A449BAC-8F15-4F7A-83F8-39D3063DADAD}.Release|x64.Build.0 = Release|Any CPU
 		{0A449BAC-8F15-4F7A-83F8-39D3063DADAD}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A449BAC-8F15-4F7A-83F8-39D3063DADAD}.Release|x86.Build.0 = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|x64.Build.0 = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Debug|x86.Build.0 = Debug|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|x64.ActiveCfg = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|x64.Build.0 = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|x86.ActiveCfg = Release|Any CPU
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6672932-B585-40D6-B7A6-CC52F8C9BCA3} = {DD3EEE6D-5007-4CEB-97BF-1E9B97AD5CAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CA29821-4DBA-4B89-AC31-4155C25C221F}
 	EndGlobalSection
 EndGlobal
